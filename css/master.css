@@ -1,0 +1,33 @@
+html body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.login-with {
+    width: 40px;
+    height: 40px;
+}
+
+.parent {
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    /* display: inline-block; */
+}
+
+#home-img {
+    flex: 1;
+    height: 100%;
+}
+
+#login-form {
+    /* width: 60%;
+    height: 100%; */
+    flex: 2;
+    background-color: bisque;
+}
+
+#img {
+    background-image: url("../imgs/home-page-img.png");
+    width: 900px;
+}
