@@ -2,47 +2,46 @@
 <html>
 
 <head>
-    <meta lang="en">
+    <meta lang="en" charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" href="css/master.css">
 </head>
 
 <body>
     <div class="parent">
-        <div class="block" id="login-form">
+        <div id="child-1">
             <h1>Create Account</h1>
             <div>
-                <div>
-                    <a href="#"><img class="login-with" src="imgs/facebook.png" alt="Facebook"></a>
-                    <a href="#"><img class="login-with" src="imgs/instagram.png" alt="instagram"></a>
-                    <a href="#"><img class="login-with" src="imgs/Twitter.png" alt="Twitter"></a>
-                </div>
-                <p>or use your email for registration:</p>
-                <form>
-                    <div>
-                        <input type="text" placeholder="Name">
-                    </div>
-                    <br>
-                    <div>
-                        <input type="email" placeholder="Email">
-                    </div>
-                    <br>
-                    <div>
-                        <input type="password" placeholder="Password">
-                    </div>
-                    <br>
-                    <input id="privacy" type="checkbox" checked required>
-                    <label for="privacy">I agree to the <a href="#">Terms</a> and <a href="#">Privacy
-                            Policy</a>.</label>
-                    <br>
-                    <br>
-                    <input type="submit" value="Sign Up">
-                    <input type="submit" value="Sign In">
-                </form>
+                <a href="#"><img src="imgs/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="imgs/instagram.png" alt="instagram"></a>
+                <a href="#"><img src="imgs/Twitter.png" alt="Twitter"></a>
             </div>
+            <p>or use your email for registration:</p>
+            <form>
+                <div>
+                    <input type="text" placeholder="Name">
+                </div>
+                <br>
+                <div>
+                    <input type="email" placeholder="Email">
+                </div>
+                <br>
+                <div>
+                    <input type="password" placeholder="Password">
+                </div>
+                <br>
+                <input id="privacy" type="checkbox" checked required>
+                <label for="privacy">I agree to the <a href="#">Terms</a> and <a href="#">Privacy
+                            Policy</a>.</label>
+                <br>
+                <br>
+                <input type="submit" value="Sign Up">
+                <input type="submit" value="Sign In">
+            </form>
         </div>
-        <div id="img"></div>
-        <!-- <img id="home-img" src="imgs/home-page-img.png" alt="home img"> -->
+        <div id="child-2">
+            <img src="imgs/people-pattern.png" alt="home img">
+        </div>
     </div>
 </body>
 
