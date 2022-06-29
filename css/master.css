@@ -14,11 +14,13 @@
         background-color: #ffffff;
         border-radius: 8px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        text-align: center;
     }
-
+    
     
     .child1 {
-        flex: 9;
+        padding: 0px 84px;
+        flex: 8;
         font-size: 20px;
     }
     
@@ -34,7 +36,7 @@
     .parent .child1 .submit .sign_in, 
     .parent .child1 .submit .sign_up {
         border: 2px solid #ee5959;
-        padding: 12px 74px;
+        padding: 12px 32px;
         border-radius: 8px;
         font-size: larger;
     }
@@ -73,33 +75,33 @@
         width: 12px !important;
         height: 12px !important;
         color:#192d34 !important;
-        /* text-align: center; */
-        border-radius: 50% !important;
     }
     input[type=text], input[type=email], input[type=password] {
         font-size: 18px;
         background-color: #f4f6f8;
         padding: 18px 12px;
-        width: 80%;
-        /* margin-bottom: 18px; */
+        width: 95%;
+        margin-bottom: 18px;
         border: 2px solid #eaf0f1;
         border-radius: 8px;
     }
 
-    .terms {
+    .parent .child1 .terms {
         margin-top: 18px;
+        /* text-align: left; */
     }
+
     .terms a {
         color: #ee5959;
         text-decoration: none;
     }
 
-    .submit {
+    .parent .child1 .submit {
         display: flex;
         width: 100%;
         margin-top: 80px;
+        gap: 32px;
     }
-    .submit input {
+    .parent .child1 .submit input {
         flex: 1;
-        justify-content: space-between;
     }
